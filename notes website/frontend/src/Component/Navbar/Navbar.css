@@ -1,0 +1,28 @@
+.navMenu {
+	display: flex;
+	align-content: space-around;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+.navMenu a,
+.navMenu span {
+    font-family: 'Josefin Sans', sans-serif;
+	color: #000000;
+	border-bottom: 2xp solid rebeccapurple;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin-right : 3rem;
+	margin-left: 2rem;
+	font-weight: 500;
+	display: inline-block;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.navMenu span:hover {
+	color: #02f3da;
+}
+.navMenu a:hover{ color: #02f3da;
+}
